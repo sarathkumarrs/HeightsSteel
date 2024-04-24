@@ -10,6 +10,22 @@ img{
     width: 50%;
 }
 
+.quote-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366; /* WhatsApp green color */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    z-index: 9999;
+}
+
+.quote-button:hover {
+    background-color: #128c7e; /* Darker shade of WhatsApp green */
+}
+
 @media only screen and (max-width: 700px) {
     img{
         width:100%;
