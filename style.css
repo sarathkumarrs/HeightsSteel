@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+img{
+    width: 50%;
+}
+
+@media only screen and (max-width: 700px) {
+    img{
+        width:100%;
+    }
+  }
